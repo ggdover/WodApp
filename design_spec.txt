@@ -1,0 +1,47 @@
+Tab 1:
+* Browse through all workout moments. 
+* Can either show a layout where its just a list where the most recent 
+workout is at the top and then it descends in chronological order, or
+it can show a different layout which is a calendar month by month view
+where each date where a workout was done is marked with a color.
+
+Tab 2:
+* Browse through each unique workout
+* Tab 1 shows every moment I worked out, while tab 2 shows different workouts
+and each workout from Tab 2 can be done at multiple different moments in Tab 1.
+* Each workout in Tab 2 has a detailed view where there is alot you can customize
+about a workout (See more info under "Detailed view (Tab 2)" to see requirements for this)
+* In Tab 2 you should also have a search field where I can search for keywords such as
+legs, squat, pull ups etc. to find the relevant workouts. The search will filter based
+on any word that appears in that workout (the name of any exercise etc.)
+
+Detailed view (Tab 2):
+* For any workout you should be able to add a warm-up section.
+In the warm-up section you can add any number of exercises and number of reps
+or amount of time such as 30 seconds. You can also have sets, so if you should
+do 2 sets of 5 execises you can do that
+* For any workout you can also add a WOD section which can be something like
+a EMOM, amrap. You can similar to warm-up add a list of workouts and multiple sets
+number of reps etc. You should also be able to add a time cap
+* For WOD section you should be able to create multiple variants also if you want to
+have like a scaled version, Rx version etc. The labels of each of these variants should
+be customizable
+* In addition to warm-up section and WOD section you should be able to add a strength section,
+for doing some traditional strength workout, like 5 sets of 10 reps Squat with a precentage of
+personal best of that stength exercise.
+* There should also be a button when viewing this workout where you can get a list of all the
+results from doing that workout, each result can be one of the variants, (scaled RX etc.) and
+some of the individual values or number of reps sets might be modified (for example maybe I did
+RX but the two last sets I scaled down so I did 2 less reps on certain exercises)
+
+Tab 3:
+* Finally in Tab 3 there should be a list of Personal bests for different exercises such as
+Squats, Pull ups (number of reps, if weighted or not) etc.
+
+Finally all the data in this app: all the exercises, all the results from each exercise, all
+the personal bests should be persistantly stored so it's not lost when the app gets closed
+and when the app is started it should have the same data it had since you last used the app,
+in other words should stay consistently synchronized so any modifications on any of this data
+is consistently stored persistantly. There should also be an import/export feature to export
+it to a appropriate format such as JSON and then you can also import it into the app.
+Importing will replace all the existing data in the app.
